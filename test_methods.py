@@ -22,10 +22,34 @@ def test_perimeter():
     # then the perimeter should be 14
     assert output == 14
 
-    def test_sun():
-        value1 = 2 
-        value2 = 5
+def test_sum():
+    value1 = 3
+    value2 = 9
 
-        output = methods.sun(value1, value2)
+    output = methods.soma(value1, value2)
 
-    assert output == 7
+    assert output == 12
+
+def test_mult():
+    value1 = 4
+    value2 = 5
+
+    output = methods.multiplicacao(value1, value2)
+
+    assert output == 20
+
+def test_div():
+    value1 = 10
+    value2 = 5
+
+    output = methods.divisao(value1, value2)
+
+    assert output == 2
+
+def test_sub():
+    value1 = 5
+    value2 = 4
+
+    output = methods.subtracao(value1, value2)
+
+    assert output == 1
