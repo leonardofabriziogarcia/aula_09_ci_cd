@@ -21,3 +21,11 @@ def test_perimeter():
     
     # then the perimeter should be 14
     assert output == 14
+
+    def test_sun():
+        value1 = 2 
+        value2 = 5
+
+        output = methods.sun(value1, value2)
+
+    assert output == 7
