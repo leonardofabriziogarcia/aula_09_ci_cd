@@ -10,7 +10,7 @@ def soma(value1, value2):
     soma = value1 + value2
     return soma
 
-def multiplacao(value1, value2):
+def multiplicacao(value1, value2):
     multiplicacao = value1 * value2
     return multiplicacao
 
